@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4DA800F6-ABF1-4C02-A460-BC69629CB2A4}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataStructures</RootNamespace>
+    <AssemblyName>DataStructures</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structures\Hashing.cs" />
+    <Compile Include="Structures\Heap.cs" />
+    <Compile Include="Structures\Lists\ArrayList.cs" />
+    <Compile Include="Structures\Lists\DoubleLinkedList.cs" />
+    <Compile Include="Structures\Lists\DoubleLinkedNode.cs" />
+    <Compile Include="Structures\Lists\IArrayList.cs" />
+    <Compile Include="Structures\Lists\IDoubleLinkedList.cs" />
+    <Compile Include="Structures\Lists\ILinkedList.cs" />
+    <Compile Include="Structures\Lists\LinkedList.cs" />
+    <Compile Include="Structures\Lists\Node.cs" />
+    <Compile Include="Structures\Queue\ArrayListQueue.cs" />
+    <Compile Include="Structures\Queue\IPriorityQueue.cs" />
+    <Compile Include="Structures\Queue\IQueue.cs" />
+    <Compile Include="Structures\Queue\PriorityQueue.cs" />
+    <Compile Include="Structures\Queue\SimpleLinkedPriorityQueue.cs" />
+    <Compile Include="Structures\Queue\SimplePriorityQueue.cs" />
+    <Compile Include="Structures\Queue\SimplyLinkedListQueue.cs" />
+    <Compile Include="Structures\SeperateChainingHashTable.cs" />
+    <Compile Include="Structures\Stack.cs" />
+    <Compile Include="Structures\Graph\Edge.cs" />
+    <Compile Include="Structures\Graph\Graph.cs" />
+    <Compile Include="Structures\Graph\Node.cs" />
+    <Compile Include="Structures\Graph\Runner.cs" />
+    <Compile Include="Structures\Tree\BinaryNode.cs" />
+    <Compile Include="Structures\Tree\BinaryTree.cs" />
+    <Compile Include="Structures\Tree\GeneralTree.cs" />
+    <Compile Include="Universe\HashSet.cs" />
+    <Compile Include="Universe\Universe.cs" />
+    <Compile Include="Universe\Vector.cs" />
+    <Compile Include="Week.cs" />
+    <Compile Include="Week1\Complexity.cs" />
+    <Compile Include="Week1\FizzBuzz.cs" />
+    <Compile Include="Week1\Runner.cs" />
+    <Compile Include="Week1\MyAlgorithms.cs" />
+    <Compile Include="Week1\Odracht6.cs" />
+    <Compile Include="Week1\Random.cs" />
+    <Compile Include="Week2\CumulativeSum.cs" />
+    <Compile Include="Week2\DoubleLinkedList.cs" />
+    <Compile Include="Week2\MovingAverage.cs" />
+    <Compile Include="Week2\Queue.cs" />
+    <Compile Include="Week2\Runner.cs" />
+    <Compile Include="Week2\SimpleArrayList.cs" />
+    <Compile Include="RunsRunners.cs" />
+    <Compile Include="Week2\SimpleLinkedList.cs" />
+    <Compile Include="Week2\Stack.cs" />
+    <Compile Include="Week3\Faculteit.cs" />
+    <Compile Include="Week3\Log.cs" />
+    <Compile Include="Week3\Math.cs" />
+    <Compile Include="Week3\Sort.cs" />
+    <Compile Include="Week3\Palidromen.cs" />
+    <Compile Include="Week3\Recursie.cs" />
+    <Compile Include="Week4\Runner.cs" />
+    <Compile Include="Week4\TreeNode.cs" />
+    <Compile Include="Week4\QuickSort.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="List" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
