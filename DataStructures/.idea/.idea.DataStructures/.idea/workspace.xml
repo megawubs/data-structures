@@ -23,21 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleLinkedList.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/Week2/SimpleLinkedList.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1490436721000" expanded="true" signature="6:65" ph="..." />
-                <marker date="1490436721000" expanded="true" signature="97:497" ph="{...}" />
-                <marker date="1490436721000" expanded="true" signature="143:495" ph="{...}" />
-                <marker date="1490436721000" expanded="true" signature="175:489" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Stack.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructures/Week2/Stack.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructures/Structures/Graph/Graph.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -164,6 +149,23 @@
                 <marker date="1490437137000" expanded="true" signature="3969:4235" ph="{...}" />
                 <marker date="1490437137000" expanded="true" signature="4137:4221" ph="{...}" />
                 <marker date="1490437137000" expanded="true" signature="4266:4387" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeapTest.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+              <folding>
+                <marker date="1490441214000" expanded="true" signature="6:55" ph="..." />
+                <marker date="1490441214000" expanded="true" signature="96:2012" ph="{...}" />
+                <marker date="1490441214000" expanded="true" signature="142:2010" ph="{...}" />
+                <marker date="1490441214000" expanded="true" signature="213:776" ph="{...}" />
+                <marker date="1490441214000" expanded="true" signature="842:1405" ph="{...}" />
+                <marker date="1490441214000" expanded="true" signature="1468:2004" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -262,7 +264,6 @@
         <option value="$PROJECT_DIR$/DataStructures/Week6/PriorityQueue.cs" />
         <option value="$PROJECT_DIR$/DataStructures/Week6/Heap.cs" />
         <option value="$PROJECT_DIR$/DataStructures/Structures/Heap/HeapType.cs" />
-        <option value="$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs" />
         <option value="$PROJECT_DIR$/DataStructures/Structures/Heap/Heap.cs" />
         <option value="$PROJECT_DIR$/DataStructures/Structures/PriorityQueue/PriorityQueue.cs" />
         <option value="$PROJECT_DIR$/DataStructures/Structures/HeapType.cs" />
@@ -294,6 +295,7 @@
         <option value="$PROJECT_DIR$/DataStructures/Structures/Tree/BinaryTree.cs" />
         <option value="$PROJECT_DIR$/DataStructures/Structures/Tree/GeneralTree.cs" />
         <option value="$PROJECT_DIR$/DataStructuresTest/Week6/GraphTest.cs" />
+        <option value="$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs" />
       </list>
     </option>
   </component>
@@ -331,6 +333,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataStructures (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresTest" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructures (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructuresTest" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Structures" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,12 +548,12 @@
       <workItem from="1489842883701" duration="3260000" />
       <workItem from="1490246916069" duration="3734000" />
       <workItem from="1490294913999" duration="3171000" />
-      <workItem from="1490425703994" duration="11257000" />
+      <workItem from="1490425703994" duration="11572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227886000" />
+    <option name="totallyTimeSpent" value="228201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,7 +660,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs</url>
           <line>44</line>
-          <properties startOffset="1274" endOffset="1315" documentPath="$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs" />
+          <properties startOffset="1300" endOffset="1341" documentPath="$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs" />
           <option name="timeStamp" value="323" />
         </line-breakpoint>
       </breakpoints>
@@ -742,20 +766,6 @@
             <marker date="1490427218000" expanded="true" signature="142:676" ph="{...}" />
             <marker date="1490427218000" expanded="true" signature="200:670" ph="{...}" />
             <marker date="1490427218000" expanded="true" signature="279:660" ph="/* universe.Add(new Vector ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <marker date="1490436012000" expanded="true" signature="6:55" ph="..." />
-            <marker date="1490436012000" expanded="true" signature="96:1387" ph="{...}" />
-            <marker date="1490436012000" expanded="true" signature="142:1385" ph="{...}" />
-            <marker date="1490436012000" expanded="true" signature="200:763" ph="{...}" />
-            <marker date="1490436012000" expanded="true" signature="816:1379" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1455,6 +1465,21 @@
             <marker date="1490437137000" expanded="true" signature="3969:4235" ph="{...}" />
             <marker date="1490437137000" expanded="true" signature="4137:4221" ph="{...}" />
             <marker date="1490437137000" expanded="true" signature="4266:4387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructuresTest/Structures/HeapTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <marker date="1490441214000" expanded="true" signature="6:55" ph="..." />
+            <marker date="1490441214000" expanded="true" signature="96:2012" ph="{...}" />
+            <marker date="1490441214000" expanded="true" signature="142:2010" ph="{...}" />
+            <marker date="1490441214000" expanded="true" signature="213:776" ph="{...}" />
+            <marker date="1490441214000" expanded="true" signature="842:1405" ph="{...}" />
+            <marker date="1490441214000" expanded="true" signature="1468:2004" ph="{...}" />
           </folding>
         </state>
       </provider>
