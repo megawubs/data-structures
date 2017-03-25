@@ -65,5 +65,25 @@ namespace DataStructuresTest.Structures
             Assert.AreEqual(5, heap.RemoveFirst());
             Assert.AreEqual(6, heap.RemoveFirst());
         }
+
+        [Test]
+        public void max_heap_works_with_ints()
+        {
+            var heap = new Heap<int>(HeapType.Max);
+
+            heap.Add(1);
+            heap.Add(2);
+            heap.Add(3);
+            heap.Add(4);
+            heap.Add(5);
+            heap.Add(6);
+
+            Assert.AreEqual(6, heap.RemoveFirst());
+            Assert.AreEqual(5, heap.RemoveFirst());
+            Assert.AreEqual(4, heap.RemoveFirst());
+            Assert.AreEqual(3, heap.RemoveFirst());
+            Assert.AreEqual(2, heap.RemoveFirst());
+            Assert.AreEqual(1, heap.RemoveFirst());
+            }
     }
 }

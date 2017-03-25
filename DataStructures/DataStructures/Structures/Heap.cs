@@ -24,7 +24,7 @@ namespace DataStructures.Structures
         public void Add(T data)
         {
             int hole = ++_currentSize;
-            for (; Compare(data, _items[hole / 2]) < 0; hole /= 2)
+            for (; Compare(data, _items[hole / 2]) < 0 && hole > 1; hole /= 2)
             {
                 _items[hole] = _items[hole / 2];
             }
@@ -42,14 +42,14 @@ namespace DataStructures.Structures
             {
                 if (Compare(left, right) < 0)
                 {
-                    for (; Compare(data, _items[hole * 2]) > 0; hole *= 2)
+                    for (; Compare(data, _items[hole * 2]) > 0 && hole * 2 < _currentSize; hole *= 2)
                     {
                         _items[hole] = _items[hole * 2];
                     }
                 }
                 else
                 {
-                    for (; Compare(data, _items[hole * 2 + 1]) > 0; hole *= 2 + 1)
+                    for (; Compare(data, _items[hole * 2 + 1]) > 0 && hole * 2 + 1<_currentSize ; hole *= 2 + 1)
                     {
                         _items[hole] = _items[hole * 2 + 1];
                     }
